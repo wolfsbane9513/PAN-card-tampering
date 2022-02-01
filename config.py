@@ -8,7 +8,7 @@ class Config(object):
     
     basedir    = os.path.abspath(os.path.dirname(__file__))
 
-    SECRET_KEY = 'pianalytix'
+    SECRET_KEY = 'pantamp'
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
@@ -28,7 +28,7 @@ class DevelopmentConfig(Config):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "pantamp"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
@@ -39,7 +39,7 @@ class TestingConfig(Config):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "pantamp"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
