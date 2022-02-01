@@ -7,3 +7,4 @@ tensorflow-cpu==2.5.2
 scikit-image
 imageio==2.9.0
 numpy==1.19.5
+gunicorn
