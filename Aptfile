@@ -1,1 +1,4 @@
-heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-apt
+libsm6
+libxrender1
+libfontconfig1
+libice6
