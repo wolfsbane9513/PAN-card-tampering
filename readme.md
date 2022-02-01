@@ -12,3 +12,22 @@ Step 6: Run application by command;
 python app.py
 You will get url copy it and paste in browser.
 Step 7: You have sample_data folder where you can get images to test.
+  
+
+When deploying on heroku-
+Ensure
+1.Add an Aptfile in your project directory and add the below file
+libsm6
+libxrender1
+libfontconfig1
+libice6
+NOTE: Aptfile should not have any .txt or any other extension. Just like the Procfile
+
+2.Push the edited code to Github
+
+3. In heroku dashboard,
+goto your-app --> settings --> buildpacks --> add buildpacks --> https://github.com/heroku/heroku-buildpack-apt.git
+
+copy and paste this link --> add buildpack
+
+Deploy your app
