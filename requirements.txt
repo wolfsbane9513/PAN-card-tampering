@@ -5,4 +5,4 @@ opencv-python==4.4.0.46
 Pillow==8.0.1
 tensorflow==2.5.2
 scikit-image
-imageio==2.14.0
+imageio==2.10.0
