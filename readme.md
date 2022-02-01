@@ -1,7 +1,6 @@
 Step to run application:
 
-Step 1:	Create the copy of the project.
-
+Step 1:	Create the copy of the project.<
 Step 2: Open command prompt and change your current path  to folder where you can find 'app.py' file.
 Step 3: Create environment by command given below- conda create -name <environment name>
 Step 4: Activate environment by command as follows- conda activate <environment name>
@@ -21,7 +20,7 @@ NOTE: Aptfile should not have any .txt or any other extension. Just like the Pro
 
 2.Push the edited code to Github
 
-3. In heroku dashboard,
+3.In heroku dashboard,
 goto your-app 
 --> settings 
 --> buildpacks 
