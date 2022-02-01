@@ -62,7 +62,7 @@ def index():
                 cv2.imwrite(os.path.join(app.config['GENERATED_FILE'], 'image_uploaded.jpg'), uploaded_image)
                 cv2.imwrite(os.path.join(app.config['GENERATED_FILE'], 'image_diff.jpg'), diff)
                 cv2.imwrite(os.path.join(app.config['GENERATED_FILE'], 'image_thresh.jpg'), thresh)
-                return render_template('index.html',pred=str(round(score*100,2)) + '%' + ' correct')
+                return render_template('index.html',pred=str(round(score*100,2)) + '%' + ' of the image uploaded matches an actual PAN card')
        
 # Main function
 if __name__ == '__main__':
